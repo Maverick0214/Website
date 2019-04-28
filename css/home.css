@@ -1,0 +1,74 @@
+.brixhub {
+	background-image: url(../images/brixhub.png);
+	background-position: center;
+	background-size: cover;
+	height: 50vh;
+	border: 3px black solid
+}
+
+.menu {
+	width: 30%;
+	margin-top: 10px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	height: 10vh;
+	padding: 0px;
+	grid-gap: 10px;
+}
+
+.menu {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+	font-family: Bebas Neue;
+	font-size: 20px;
+	padding: 10px;	
+	color: black;
+	border: 3px black solid;
+}
+
+ul {
+	padding: 0px;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../images/home.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 70vh;
+	border: 3px black solid;
+	margin-bottom: 15px;
+}
+
+.footer {
+	height: 15vh;
+	border: 3px black solid;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	font-family: Bebas Neue;
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	background: #f04f00;
+}
